@@ -1,0 +1,54 @@
+/* Basic styling for the landing page */
+.landing-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282a36;
+    width: 100%;
+  }
+
+  .landing-header {
+    font-size: 48px; /* Large font size */
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #333;
+  }
+  
+  
+  /* Styling for the drag-and-drop zone */
+  .dropzone {
+    width: 400px;
+    height: 200px;
+    border: 2px dashed #f8f8f2;
+    border-radius: 10px;
+    background-color: #44475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #f8f8f2;
+    cursor: pointer;
+  }
+
+  .ShamithButton {
+    margin-top: 50px;
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 40px;
+  }
+  
+  .dropzone:hover {
+    border-color: #333;
+  }
+  
+  .dropzone p {
+    margin: 0;
+  }
+  
+  

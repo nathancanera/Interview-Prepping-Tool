@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #ffffff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1e1e2e;
+  color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.CodeMirror {
+  text-align: right;
+}
+
+.App {
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.question-section {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.problem-description-box {
+  background-color: #282a36; /* Slightly darker background */
+  border-radius: 8px;
+  padding: 1cqmax;
+  margin: 10px 0;
+  color: #50fa7b; /* Highlight text in a subtle green */
+  text-align: left;
+  max-width: 700px;
+  font-size: small;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0; /* Remove default margin */
+}
+
+.editor-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  height: auto;
+}
+
+.editor {
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.submitTestButton {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.submit-button {
+  background-color: #50fa7b;
+  color: #282a36;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.submit-button:hover {
+  background-color: #53ff7e;
+}
+
+.test-button {
+    background-color: #50fa7b;
+    color: #282a36;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .test-button:hover {
+    background-color: #53ff7e;
+  }
+
+  .question-button {
+    background-color: #50fa7b; /* Same green background as other buttons */
+    color: #282a36; /* Text color (though the mic image doesn't need it) */
+    padding: 12px 24px; /* Same padding */
+    border-radius: 8px; /* Rounded corners like other buttons */
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    transition: background-color 0.3s ease; /* Smooth background color change */
+    margin-top: 20px;
+    margin-left: 50px; /* Add margin to separate it from the other buttons */
+  }
+  
+  .question-button:hover {
+    background-color: #53ff7e; /* Same hover effect */
+  }
+
+  .next-stage-button {
+    background-color: #ff79c6;
+    color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-stage-button:hover {
+    background-color: #ff92d2;
+  }
+  
+  .question-image {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle; /* Ensure the image aligns well with text if needed */
+  }
+
+  .results-section {
+    margin-top: 20px;
+  }
